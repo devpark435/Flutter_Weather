@@ -1,0 +1,53 @@
+{
+    "week": [
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 1
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 2
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 3
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 4
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 5
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 6
+        },
+        {
+            "main": "Clear",
+            "temp_max": 2,
+            "temp_min": 1,
+            "rain": "30%",
+            "day": 7
+        }
+    ]
+}
