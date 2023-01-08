@@ -5,28 +5,8 @@ import 'package:geolocator/geolocator.dart';
 import '../getGps.dart';
 import '../main.dart';
 
-// final _openweatherkey = '2eb451b0ad86c93e1776450abba40da0';
-// String latitude = '';
-// String longitude = '';
 
-// @override
-// void initState() {
-//   // super.initState();
-//   getPosition();
-// }
 
-// Future<void> getPosition() async {
-//   var currentPosition = await Geolocator.getCurrentPosition(
-//       desiredAccuracy: LocationAccuracy.high);
-
-//   print(currentPosition);
-//   latitude = currentPosition.latitude.toString();
-//   longitude = currentPosition.longitude.toString();
-
-//   // getWeather(
-//   //     lat: currentPosition.latitude.toString(),
-//   //     lon: currentPosition.longitude.toString());
-// }
 
 Future<Weather> getWeather() async {
   Location location = Location();
@@ -35,7 +15,7 @@ Future<Weather> getWeather() async {
   double latitude = location.latitude;
   //api 호출을 위한 주소
   String apiAddr =
-      "https://api.openweathermap.org/data/2.5/weather?lon=$longitude&lat=$latitude&appid=2eb451b0ad86c93e1776450abba40da0";
+      "https://api.openweathermap.org/data/2.5/weather?lon=$longitude&lat=$latitude&appid={API_KEY}";
   http.Response response; //http request의 결과 즉 api 호출의 결과를 받기 위한 변수
   var data1; //api 호출을 통해 받은 정보를 json으로 바꾼 결과를 저장한다.
   Weather weather;
